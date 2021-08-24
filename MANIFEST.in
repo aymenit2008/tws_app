@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tws_app *.css
+recursive-include tws_app *.csv
+recursive-include tws_app *.html
+recursive-include tws_app *.ico
+recursive-include tws_app *.js
+recursive-include tws_app *.json
+recursive-include tws_app *.md
+recursive-include tws_app *.png
+recursive-include tws_app *.py
+recursive-include tws_app *.svg
+recursive-include tws_app *.txt
+recursive-exclude tws_app *.pyc
